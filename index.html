@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive CV</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1>{{user.fullName}}</h1>
+    <div>
+        <img src="My Photo.jpg" alt="My photo">
+    </div>
+    {{user.description}}
+    <div>
+        <h1>Contact</h1>
+    </div>
+    <div>{{ContactDetails.Email}}</div>
+    <div>{{ContactDetails.Phonenumber}}</div>
+    <div>{{ContactDetails.Address}}</div>
+
+    <div>
+        <h1>Education</h1>
+    </div>
+    <div>{{education.InstitutionName}}</div>
+    <div>{{education.Qualification}}</div>
+    <div>{{education.Duration}}</div>
+
+    <div>
+       <h1>Expirience</h1> 
+    </div>
+    {{Expirience.Role}}<br>
+    {{Expirience.Company}}<br>
+    {{Expirience.Duration}}<br>
+    
+    <div>
+        <h1>Skills</h1>
+    </div>
+    <div class="Skills">
+        <ul class="Real">
+            <li>Computer Literacy (MS word, MS Excel, MS outlook and MS PowerPoint)</li>
+            <li>Proactive</li>
+            <li>Analytical</li>
+        </ul>
+    </div>
 </body>
 </html>

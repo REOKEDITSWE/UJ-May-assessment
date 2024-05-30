@@ -1,38 +1,27 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": "Mangoale Reokeditswe",
+        "photo": "My Photo.jpg",
+        "description": "I am a person who possesses the ability to communicate effectively in numerous languages, as well as adaptability and ingenuity. I'm unbiased, analytical, and approachable. I want to contribute to your success by offering my knowledge of precision and efficiency in situations that call for critical thought. I'm a person who is both energized and calm under pressure. I'm also calculative, persuasive, and open to learning new things that lead to successful outcomes."
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "ContactDetails": {
+        "Email": "mangoalerb@gmail.com",
+        "Phonenumber": "0721745919",
+        "Address": "Stand No 10551 (3 Dresden Crescent) Cosmo City Ext 92125"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "education": {
+        "institutionName": "North-West university",
+        "Qualification": "Bachelor of Social Sciences with Economics",
+        "Duration": "2020-2022"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+    "Expirience": {
+        "Role": "Casual Sales consultant",
+        "Company": "Studio 88",
+        "Duration": "01/12/2023 - 01/02/2024"
+    },
+    "Skills": {
+        "skill 1": "Computer Literacy (MS word, MS Excel, MS outlook and MS PowerPoint)",
+        "skill 2": "Proactive",
+        "skill 3": "Analytical"
+    }
 }
